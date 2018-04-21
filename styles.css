@@ -1,0 +1,378 @@
+body {
+margin : 0;
+}
+.report{margin: 0 100px;padding: 100px}
+.mainBody {
+background-image : url(bg.jpg);
+background-repeat : no-repeat;
+background-size : 100%;
+font-size : 23px;
+background-attachment : fixed;
+margin : 0;
+padding : 0;
+}
+header {
+display : flex;
+flex-direction : row;
+justify-content : space-between;
+height : 80px;
+border-bottom : 1px;
+border-bottom-style : solid;
+}
+header div:first-child {
+display : flex;
+flex-direction : row;
+font-size : 30px;
+font-family : 'Poppins', sans-serif;
+padding-top : 0;
+padding-left : 12px;
+}
+header div:nth-child(2) {
+display : flex;
+flex-direction : row;
+font-family : 'Raleway', sans-serif;
+padding-right : 12px;
+}
+nav ul {
+display : flex;
+flex-direction : row;
+justify-content : flex-end;
+padding : 0% 2%;
+}
+nav ul li {
+list-style-type : none;
+padding-left : 2%;
+}
+nav ul li a {
+text-decoration : none;
+font-family : 'Montserrat', sans-serif;
+font-size : 18px;
+}
+nav ul li a:hover {
+background-color : lightblue;
+transform : scale(1.2,1.3);
+border : 1px;
+border-style : solid;
+border-radius : 5px;
+animation-name : firstAnimation;
+animation-duration : 4s;
+}
+@keyframes firstAnimation {
+0% {
+background-color : lightblue;
+}
+50% {
+background-color : yellow;
+}
+100% {
+background-color : lightblue;
+}
+}
+
+/*-----------css for index.html---------*/
+.section-index {
+padding : 9% 0% 0% 9%;
+font-family : 'Montserrat', cursive;
+display : flex;
+flex-direction : column;
+text-align : right;
+height : 500px;
+}
+.first-child-index {
+padding-top : 9%;
+font-size : 43px;
+text-align : left;
+}
+.second-child-index {
+font-size : 37px;
+padding-right : 8%;
+}
+
+/*------------css for about.html---------*/
+.section-about {
+display : flex;
+flex-direction : row;
+justify-content : space-around;
+padding : 1% 1% 0% 1%;
+}
+.first-child-about {
+width : 62%;
+background-color : lightblue;
+padding : 1%;
+border : 1px;
+border-style : solid;
+}
+.second-child-about {
+width : 29%;
+background-color : lightgreen;
+padding : 1%;
+border : 1px;
+border-style : solid;
+}
+.imagecontainer {
+width : 100%;
+padding-top : 1%;
+}
+.images {
+width : 100%;
+height : 100%;
+}
+.article-about {
+width : 96%;
+padding : 2%;
+}
+.third-child-about {
+width : 99%;
+background-color : lightblue;
+padding : 0 4px 2px 8px;
+border : 1px;
+border-style : solid;
+}
+
+/*----------------css for social.html--------*/
+.section-social {
+height : 300px;
+display : flex;
+flex-direction : row;
+justify-content : space-around;
+padding-top : 50px;
+margin-bottom : 10px;
+padding-left : 80px;
+}
+.first-child-social {
+border-radius: 40px;
+width : 33%;
+height : 300px;
+}
+.second-child-social {
+width : 33%;
+height : 300px;
+}
+.third-child-social {
+width : 33%;
+height : 300px;
+}
+.article-social {
+height : 300px;
+display : flex;
+flex-direction : row;
+justify-content : space-around;
+padding-top : 0;
+padding-left : 80px;
+}
+.fourth-child-social {
+width : 33%;
+height : 300px;
+}
+.fifth-child-social {
+width : 33%;
+height : 300px;
+}
+.sixth-child-social {
+width : 33%;
+height : 300px;
+}
+.image-social{height: 80%;width: 80%}
+
+/*----------css for cv.html--------*/
+.section-cv {
+display : flex;
+flex-direction : column;
+justify-content : space-between;
+background-color : rgba(255, 255, 255, 0.7);
+padding-top : 5%;
+border : 1px;
+border-style : solid;
+margin-top : 3px;
+}
+.first-child-cv {
+height : 500px;
+width : 85%;
+background-color : #ffffff;
+align-self : center;
+border : 1px;
+border-style : solid;
+}
+.second-child-cv {
+height : 270px;
+width : 85%;
+background-color : white;
+align-self : center;
+border : 1px;
+border-style : solid;
+margin-top : 3px;
+}
+.third-child-cv {
+height : 400px;
+width : 85%;
+background-color : white;
+align-self : center;
+border : 1px;
+border-style : solid;
+margin-top : 3px;
+}
+.forth-child-cv {
+height : 200px;
+width : 85%;
+background-color : white;
+align-self : center;
+border : 1px;
+border-style : solid;
+margin-top : 3px;
+}
+.table-cv {
+font-family : arial, sans-serif;
+border-collapse : collapse;
+width : 100%;
+}
+.table-data-cv, .table-head-cv {
+border : #dddddd solid 1px;
+text-align : left;
+padding : 8px;
+}
+/***************************************************************************************
+*    Title: HTML Tables
+*    Author:www.w3schools.com
+*    Accessed Date: 03/27/2018
+*    Availability: https://www.w3schools.com/html/html_tables.asp
+*
+***************************************************************************************/
+
+
+
+/*-----------------------css for contact.html-------------------------------*/
+.section-contact {
+height: 400px;
+display : flex;
+flex-direction : row;
+justify-content : space-around;
+}
+.first-child-contact {
+width : 60%;
+border : 1px;
+border-style : solid;
+}
+.second-child-contact {
+width : 40%;
+font-size : 25px;
+font-family : 'Poppins', sans-serif;
+padding-left : 5px;
+border : 1px;
+border-style : solid;
+}
+/*---------------------------------------------*/
+.img-div{width: 100%;height: 700px}
+.img{width: 100%;height: 100%}
+.div-validated{width: 100%;height: 4000px}
+.validated{width: 100%; height: 100%}
+.div-validated{width: 100%;height: 3000px}
+/*---------------------------------------------*/
+footer {
+font-size : 20px;
+display : flex;
+flex-direction : row;
+justify-content : space-around;
+background : linear-gradient(white, lightblue);
+border-top : 1px;
+border-top-style : solid;
+height : 60px;
+}
+footer div:nth-child(1) {
+width : 33%;
+text-align : center;
+padding-top : 10px;
+}
+footer div:nth-child(2) {
+width : 33%;
+text-align : center;
+padding-top : 10px;
+}
+footer div:nth-child(3) {
+width : 33%;
+text-align : center;
+padding-top : 10px;
+}
+
+/*---------------making responsive webpages for device below width 900px----------*/
+@media screen and (max-width:900px) {
+.mainBody {
+background-repeat : no-repeat;
+background-size : 900px 900px;
+}
+header {
+height : 80px;
+}
+header div:first-child {
+width : 50%;
+font-size : 25px;
+}
+header div:nth-child(2) {
+font-size : 20px;
+text-align : right;
+}
+.first-child-index {
+font-size : 30px;
+}
+.second-child-index {
+font-size : 25px;
+}
+.section-about {
+display : flex;
+flex-direction : column;
+}
+.first-child-about {
+width : 80%;
+padding : 0 10%;
+}
+.second-child-about {
+width : 96%;
+padding : 2%;
+}
+.article {
+width : 96%;
+padding : 2%;
+}
+.section-contact {
+display : flex;
+flex-direction : column;
+justify-content : space-around;
+}
+.frame {
+width : 100%;
+}
+.first-child-contact {
+width : 96%;
+padding : 2%;
+}
+.second-child-contact {
+width : 96%;
+font-size : 20px;
+}
+}
+
+/*------making responsive webpage for device below width 500px-----------*/
+@media screen and (max-width:500px) {
+nav ul {
+display : flex;
+flex-direction : column;
+}
+nav ul li {
+width : 100%;
+text-align : center;
+border : 1px;
+border-style : solid;
+}
+.second-child-contact {
+font-size : 15px;
+}
+.section-social {
+display : flex;
+flex-direction : column;
+align-items : center;
+}
+.article-social {
+display : flex;
+flex-direction : column;
+align-items : center;
+}
+} 
